@@ -80,8 +80,8 @@ suite('Functional Tests', function () {
   });
 });
 
-const Browser = require('zombie');
-Browser.site = 'http://localhost/3000';
+let Browser = require('zombie');
+Browser.site = '0.0.0.0:3000';
 
 suite('Functional Tests with Zombie.js', function () {
   this.timeout(5000);
