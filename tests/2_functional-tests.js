@@ -80,7 +80,7 @@ suite('Functional Tests', function () {
   });
 });
 
-const Browser = require('zombie');
+let Browser = require('zombie');
 Browser.site = '0.0.0.0:3000';
 
 suite('Functional Tests with Zombie.js', function () {
